@@ -38,7 +38,7 @@ function createTab(name, age, gender, balance, picture, _id) {
     return `
         <div class="list-item" data-id="${_id}">
             <div class="item-top">
-                <img class="item-top__img" loading="lazy" src="${picture}">
+                <img class="item-top__img" loading="lazy" src="${picture}" alt="user image">
             </div>
   
             <div class="item-bottom">
